@@ -40,6 +40,9 @@ img{
     transform: scale(1.1);
 }
 /* shered styles */
+section{
+  padding-top: 100px;
+}
 .display-flex{
   display: flex;
 }
@@ -53,17 +56,26 @@ img{
 .color-dark-3{
   color: #727272;
 }
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
+.Description{
+  font-size:1rem;
+  font-weight:400;
+  margin: 20px 0;
+}
 /* header style */
 .header{
   background: rgba(255,144,14,0.1);
 }
-.container{
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 50px 10px;
 
+.headerContainer{
+    padding: 50px 0;
 }
-
 .navItems{
   align-items: center;
   justify-content: space-between;
@@ -90,10 +102,33 @@ img{
   font-weight:700;
 
 }
-.bannerDescription{
-  font-size:1rem;
-  font-weight:400;
-  margin: 20px 0;
+/* featureContainer */
+.ContainerExtra{
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1380px;
+  margin:0 auto;
+}
+.imgContainer{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+}
+.descriptionContainer{
+  max-width:537px;
+  
+}
+.feature .title{
+  font-size: 3rem;
+}
+.firstText{
+  font-weight: 500;
+}
+.secondText,.lastText{
+  font-weight: 700;
+}
+.lastText{
+  color: #FF900E;
 }
 /* header section responsive */
 @media screen  and (max-width:570px){
