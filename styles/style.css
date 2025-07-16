@@ -60,7 +60,8 @@ img{
 .container{
   max-width: 1440px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 50px 10px;
+
 }
 
 .navItems{
@@ -93,4 +94,13 @@ img{
   font-size:1rem;
   font-weight:400;
   margin: 20px 0;
+}
+/* header section responsive */
+@media screen  and (max-width:570px){
+  .navItems,.nav-links{
+    flex-direction: column;
+    text-align: center;
+  }
+  .btnPrimary{
+  padding:15px 20px;}
 }
