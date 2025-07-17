@@ -40,6 +40,9 @@ img{
     transform: scale(1.1);
 }
 /* shered styles */
+.bgPrimary{
+background: rgba(255,144,14,0.1);
+}
 section{
   padding-top: 100px;
 }
@@ -68,10 +71,9 @@ section{
   font-weight:400;
   margin: 20px 0;
 }
+
 /* header style */
-.header{
-  background: rgba(255,144,14,0.1);
-}
+
 
 .headerContainer{
     padding: 50px 20px;
@@ -190,7 +192,12 @@ margin-top: 100px;
 }
 
 
-
+/* footer styles */
+.footerContaainer{
+  text-align: center;
+  padding: 38px 0;
+  border-radius: 8px;
+}
 
 /* header section responsive */
 
